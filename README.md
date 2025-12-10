@@ -2,6 +2,7 @@
 
 Safe Plus is a women’s safety web application that allows a user to quickly send an SOS alert with her **live location** to trusted emergency contacts.  
 The app is built with Django and integrates browser geolocation and Twilio to send SMS alerts (and optional calls) in real time.
+![image alt](https://github.com/Devadharshani13/Safe-Plus-App/blob/main/Screenshots/main%20page.jpg?raw=true)
 
 ---
 
