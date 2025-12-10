@@ -1,0 +1,13 @@
+{% if error %}
+    <p class="alert alert-danger">{{ error }}</p>
+{% elif error_sms or error_call %}
+    <p class="alert alert-warning">
+        {% if error_sms %} {{ error_sms }} <br> {% endif %}
+        {% if error_call %} {{ error_call }} {% endif %}
+    </p>
+{% else %}
+    <p class="alert alert-success">
+        ✅ Emergency alert sent successfully!<br>
+        📍 **Location:** {{ location }}
+    </p>
+{% endif %}
